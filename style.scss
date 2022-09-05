@@ -126,7 +126,8 @@ body {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: repeat(4, 110px);
-            margin: 0 10%;
+            gap: 1em .5em;
+            margin: 0 5%;
         }
 
         &__item-one {
