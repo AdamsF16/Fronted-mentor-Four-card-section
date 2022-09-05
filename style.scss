@@ -49,9 +49,66 @@ body {
     }
 
     &__text-main {
-        margin: 1.5em 0;
+        margin: 1em 0;
         font-size: 1.4rem;
         color: hsl(229, 6%, 66%);
+    }
+
+    &__card-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 2em 2em;
+        margin: 1em 2em;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 2px hsl(229, 6%, 66%);
+    }
+
+    &__item-one {
+        border-top: 4px solid hsl(180, 62%, 55%);
+    }
+
+    &__item-two {
+        border-top: 4px solid hsl(0, 78%, 62%);
+    }
+
+    &__item-three {
+        border-top: 4px solid hsl(34, 97%, 64%);
+    }
+
+    &__item-four {
+        border-top: 4px solid hsl(212, 86%, 64%);
+    }
+
+    &__item-text-box {
+        margin-bottom: 2em;
+        text-align: left;
+    }
+
+    &__item-title {
+        font-size: 1.8rem;
+        color: hsl(240, 2%, 20%);
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    &__item-text {
+        font-size: 1.2rem;
+        color: hsl(229, 6%, 66%);
+    }
+
+    &__item-image {
+        width: 50px;
+        height: 50px;
+        align-self: flex-end;
     }
 }
 
